@@ -1,5 +1,5 @@
 new Clappr.Player({
-  source: "https://media.brimecdn.com/stream.m3u8",
+  source: "https://media.brimecdn.com/oracle_redbull_f1.mp4",
   mute: false,
   autoPlay: true,
   parent: '#player-container',
