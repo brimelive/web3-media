@@ -1,0 +1,47 @@
+.video {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  opacity: 1.00;
+}
+.title{
+  height: auto;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 72px;
+  background: linear-gradient(to right, rgb(192, 38, 211), rgb(219, 39, 119));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+background-image: url('https://www.vyopta.com/wp-content/uploads/2019/01/iStock-952039816.jpg')
+
+}
+.hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hero::before  {
+  background-image: url("https://id1o3gz7dylz.compat.objectstorage.us-ashburn-1.oraclecloud.com/brime/BrimeLogoTransparentBW.png");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+    opacity: 0.3;
+  z-index: -10;
+  background-color: #0e0e10;
+}
+.footer { 
+    text-align: center;
+    color: white;
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 20px; 
+    height:[footer-height] 
+}
